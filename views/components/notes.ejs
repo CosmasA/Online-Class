@@ -1,0 +1,17 @@
+<%- include("../partials/header.ejs") %> <%-
+include("../partials/offcanvas.ejs") %>
+<main>
+  <%- include("../partials/main.ejs") %>
+  <div class="mycard mt-5 pt-3">
+    <h1 class="mb-3">All Notes</h1>
+    <ul class="mycard">
+      <li onclick="window.location = '/noteDetails'">note One</li>
+      <li onclick="window.location = '/noteDetails'">note Two</li>
+      <li onclick="window.location = '/noteDetails'">note Three</li>
+      <li onclick="window.location = '/noteDetails'">note Four</li>
+      <li onclick="window.location = '/noteDetails'">note Five</li>
+      <li onclick="window.location = '/noteDetails'">note Six</li>
+    </ul>
+  </div>
+</main>
+<%- include("../partials/footer.ejs") %>

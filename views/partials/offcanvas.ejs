@@ -1,0 +1,133 @@
+<div
+  class="offcanvas offcanvas-start text-bg-dark offcanvas-start"
+  data-bs-scroll="true"
+  data-bs-backdrop="false"
+  tabindex="-1"
+  id="offcanvasScrolling"
+  aria-labelledby="offcanvasScrollingLabel"
+>
+  <div class="offcanvas-header">
+    <h5
+      class="offcanvas-title display-6 text-warning"
+      id="offcanvasScrollingLabel"
+    >
+      BS.CE 8
+    </h5>
+    <button
+      type="button"
+      class="btn-close btn-close-white"
+      data-bs-dismiss="offcanvas"
+      aria-label="Close"
+    ></button>
+  </div>
+  <hr />
+  <ul class="nav nav-pills flex-column mb-5">
+    <li>
+      <a href="/" class="nav-link px-3 text-white">
+        <span class="me-2"><i class="bi bi-speedometer"></i></span>
+        <span>Dashboard</span>
+      </a>
+    </li>
+
+    <li>
+      <a
+        class="nav-link px-3 sidebar-link text-white"
+        data-bs-toggle="collapse"
+        href="#layouts"
+      >
+        <span class="me-2"><i class="bi bi-people"></i></span>
+        <span>Members</span>
+        <span class="ms-auto">
+          <span class="right-icon">
+            <i class="bi bi-chevron-down"></i>
+          </span>
+        </span>
+      </a>
+      <div class="collapse" id="layouts">
+        <ul class="navbar-nav ps-3">
+          <li>
+            <a href="/students" class="nav-link dropdown-item ms-4">
+              Students
+            </a>
+          </li>
+          <li>
+            <a href="/tutors" class="nav-link dropdown-item ms-4"> Tutors </a>
+          </li>
+        </ul>
+      </div>
+    </li>
+    <li>
+      <a
+        class="nav-link px-3 sidebar-link text-white"
+        data-bs-toggle="collapse"
+        href="#classes"
+      >
+        <span class="me-2"><i class="bi bi-book"></i></span>
+        <span>Classes</span>
+        <span class="ms-auto">
+          <span class="right-icon">
+            <i class="bi bi-chevron-down"></i>
+          </span>
+        </span>
+      </a>
+      <div class="collapse" id="classes">
+        <ul class="navbar-nav ps-3">
+          <li>
+            <a href="/classes" class="nav-link dropdown-item ms-4"> Lessons </a>
+          </li>
+          <li>
+            <a href="/assignments" class="nav-link dropdown-item ms-4">
+              Assignments
+            </a>
+          </li>
+          <li>
+            <a href="/notes" class="nav-link dropdown-item ms-4"> Notes </a>
+          </li>
+        </ul>
+      </div>
+    </li>
+    <li>
+      <a href="/announcement" class="nav-link px-3 text-white">
+        <span class="me-2"><i class="bi bi-megaphone"></i></span>
+        <span>Announcement</span>
+      </a>
+    </li>
+  </ul>
+  <hr class="mt-5" />
+  <ul class="nav nav-pills flex-column mb-5">
+    <li>
+      <a
+        class="nav-link px-3 sidebar-link text-white"
+        data-bs-toggle="collapse"
+        href="#info"
+      >
+        <img
+          src="https://www.w3schools.com/howto/img_avatar.png"
+          alt="avator"
+          width="32"
+          height="32"
+          class="rounded-circle me-2"
+        />
+        <strong class="lead text-warning">Bongomin</strong>
+        <span class="ms-auto">
+          <span class="right-icon">
+            <i class="bi bi-chevron-down"></i>
+          </span>
+        </span>
+      </a>
+
+      <div class="collapse" id="info">
+        <ul class="navbar-nav ps-3">
+          <li>
+            <a href="#" class="nav-link dropdown-item ms-4">
+              Change Password
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link dropdown-item ms-4"> Sign Out </a>
+          </li>
+        </ul>
+      </div>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,44 @@
+<%- include("../partials/header.ejs") %> <%-
+include("../partials/offcanvas.ejs") %>
+<main>
+  <%- include("../partials/main.ejs") %>
+
+  <div class="mycard mt-5 pt-3">
+    <h1>Software Testing</h1>
+    <p>
+      Tutor:
+      <a href="/tutorDetails" class="text-primary text-decoration-none ms-2"
+        >Asingwire Dallington</a
+      >
+    </p>
+    <p>Topic: <strong>Testing</strong></p>
+    <div class="questions">
+      Question 1: <strong>What is Testing?</strong>
+      <p class="lead">
+        Testing in relation to software testing refers to the process of
+        evaluating a software application or system to ensure that it meets
+        specified requirements and functions correctly. This involves executing
+        the software with various inputs and scenarios to identify any defects
+        or bugs that may impact its performance or functionality. Testing is a
+        crucial step in the software development lifecycle to ensure the quality
+        and reliability of the software before it is released to end users.
+      </p>
+      Question 2: <strong>What is a Test Case?</strong>
+      <p class="lead">
+        A test case is a detailed set of conditions or variables under which a
+        tester will determine whether a software application or system is
+        working correctly or not. It includes specific steps to be followed,
+        input data to be used, and expected results to be observed. Test cases
+        are designed to validate the functionality, performance, and usability
+        of the software, and are used to ensure that the software meets the
+        requirements and specifications outlined during the development process.
+        Test cases are an essential part of software testing and help to
+        identify defects or bugs in the software.
+      </p>
+    </div>
+    <a href="/pastClassDetails" class="text-warning text-decoration-none"
+      >Class</a
+    >
+  </div>
+</main>
+<%- include("../partials/footer.ejs") %>

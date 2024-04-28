@@ -1,0 +1,40 @@
+<%- include("../partials/header.ejs") %> <%-
+include("../partials/offcanvas.ejs") %>
+<main>
+  <%- include("../partials/main.ejs") %>
+
+  <div class="mycard mt-5 pt-3">
+    <h1>Software Testing</h1>
+    <p>
+      Tutor:
+      <a href="/tutorDetails" class="text-primary text-decoration-none ms-2"
+        >Asingwire Dallington</a
+      >
+    </p>
+    <p>Topic: Testing</p>
+    <p>
+      Notes:
+      <a href="noteDetails" class="text-primary text-decoration-none ms-2"
+        >view</a
+      >
+    </p>
+    <p>Status: Past</p>
+    <p>
+      Attendance: 22
+      <a href="/students" class="text-primary text-decoration-none ms-2"
+        >Students</a
+      >
+    </p>
+    <p>Unit Code: CSE414</p>
+    <p>Credit Unit: 4</p>
+    <p>
+      Answers: 2
+      <a href="/answers" class="text-primary text-decoration-none ms-2">view</a>
+    </p>
+    <div class="btns">
+      <a href="/classes" class="text-warning text-decoration-none">classes</a>
+      <a href="#" class="text-primary text-decoration-none ms-5">Recording</a>
+    </div>
+  </div>
+</main>
+<%- include("../partials/footer.ejs") %>

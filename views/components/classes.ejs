@@ -1,0 +1,26 @@
+<%- include("../partials/header.ejs") %> <%-
+include("../partials/offcanvas.ejs") %>
+<main>
+  <%- include("../partials/main.ejs") %>
+
+  <div class="container mt-5 pt-3">
+    <h1 class="class-title my-0">All Classes</h1>
+    <div class="mycard mt-2">
+      <h1 class="mb-3">Upcoming Classes</h1>
+      <ul class="mycard">
+        <li onclick="window.location = '/upcomingClassDetails'">Class One</li>
+        <li onclick="window.location = '/upcomingClassDetails'">Class Two</li>
+        <li onclick="window.location = '/upcomingClassDetails'">Class Three</li>
+      </ul>
+    </div>
+    <div class="mycard mt-2">
+      <h1 class="text-body-emphasis mb-3">Past Classes</h1>
+      <ul class="mycard">
+        <li onclick="window.location = '/pastClassDetails'">Class One</li>
+        <li onclick="window.location = '/pastClassDetails'">Class Two</li>
+        <li onclick="window.location = '/pastClassDetails'">Class Three</li>
+      </ul>
+    </div>
+  </div>
+</main>
+<%- include("../partials/footer.ejs") %>

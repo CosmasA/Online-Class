@@ -1,0 +1,24 @@
+<%- include("../partials/header.ejs") %> <%-
+include("../partials/offcanvas.ejs") %>
+<main>
+  <%- include("../partials/main.ejs") %>
+
+  <div class="mycard mt-5 pt-3">
+    <h1>Software Testing</h1>
+    <p>
+      Tutor:
+      <a href="/tutorDetails" class="text-primary text-decoration-none ms-2"
+        >Asingwire Dallington</a
+      >
+    </p>
+    <p>Topic: Testing</p>
+    <div class="questions">
+      <p>Question 1: What is Testing?</p>
+      <p>Question 2: What is a Test Case?</p>
+    </div>
+    <a href="/assignments" class="text-warning text-decoration-none"
+      >Assignments</a
+    >
+  </div>
+</main>
+<%- include("../partials/footer.ejs") %>
